@@ -5,7 +5,7 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Student Developer",
+    title: "Developer",
     cardImage: "assets/images/experience-page/student.webp",
     place: "42 Abu Dhabi",
     time: "(sep, 2021 - present)",
@@ -62,26 +62,68 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "C",
+    cardImage: "assets/images/experience-page/c.png",
     description:
       "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "C++",
+    cardImage: "assets/images/experience-page/c++.png",
     description:
       "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
+    title: "HTML/CSS",
+    cardImage: "assets/images/experience-page/html.png",
     description:
       "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
   },
   {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
+    title: "Python",
+    cardImage: "assets/images/experience-page/python.png",
+    description:
+      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+  },
+  {
+    title: "JavaScript",
+    cardImage: "assets/images/experience-page/javascript.png",
+    description:
+      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+  },
+  {
+    title: "Dart",
+    cardImage: "assets/images/experience-page/dart.png",
+    description:
+      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+  },
+ {
+    title: "Vusial studio code",
+    cardImage: "assets/images/experience-page/vs_code.png",
+    description:
+      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+  },
+  {
+    title: "Flutter",
+    cardImage: "assets/images/experience-page/flutter.png",
+    description:
+      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+  },
+  {
+    title: "Matlab",
+    cardImage: "assets/images/experience-page/matlab.jepg",
+    description:
+      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+  },
+  {
+    title: "Xcode",
+    cardImage: "assets/images/experience-page/xcode.png",
+    description:
+      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+  },
+  {
+    title: "Android Studio",
+    cardImage: "assets/images/experience-page/android.png",
     description:
       "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
   },

@@ -6,14 +6,14 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Studies Engineer",
-    cardImage: "assets/images/experience-page/student.webp",
+    cardImage: "assets/images/experience-page/car.webp",
     place: "NOMADE ENGINEERING",
     time: "(Mar, 2021 - present)",
     desp: "<li>Tested car prototypes and identify any potential problems</li><li>Design and implementation of a new canister model in matlab</li><li>Development With VBA and C</li>",
   },
   {
     title: "Project Graduation",
-    cardImage: "assets/images/experience-page/student.webp",
+    cardImage: "assets/images/experience-page/ai.webp",
     place: "LafargeHolcime Meknes",
     time: "(Mars 2021 - july 2021)",
     desp: "<li>Tower simulation solidworks flow</li><li>Development of a predictive model based on deep learning</li><li>Development of bot to send sms alerts and call in case of failure</li><li>Dashboard creation to compare actual and predicted values</li>",
@@ -94,7 +94,7 @@ const volunteershipcards = [
   },
   {
     title: "JavaScript",
-    cardImage: "assets/images/experience-page/javascript.png",
+    cardImage: "assets/images/experience-page/javascriptpng.png",
     description:
       "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
   },
@@ -118,7 +118,7 @@ const volunteershipcards = [
   },
   {
     title: "Matlab",
-    cardImage: "assets/images/experience-page/matlab.jepg",
+    cardImage: "assets/images/experience-page/matlab.png",
     description:
       "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
   },
@@ -130,7 +130,7 @@ const volunteershipcards = [
   },
   {
     title: "Android Studio",
-    cardImage: "assets/images/experience-page/android.png",
+    cardImage: "assets/images/experience-page/android.webp",
     description:
       "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
   },

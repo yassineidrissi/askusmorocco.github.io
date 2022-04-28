@@ -5,25 +5,32 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Developer",
+    title: "Studies Engineer",
     cardImage: "assets/images/experience-page/student.webp",
-    place: "42 Abu Dhabi",
-    time: "(sep, 2021 - present)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    place: "NOMADE ENGINEERING",
+    time: "(Mar, 2021 - present)",
+    desp: "<li>Tested car prototypes and identify any potential problems</li><li>Design and implementation of a new canister model in matlab</li><li>Development With VBA and C</li>",
   },
   {
-    title: "renewable energy engineering",
+    title: "Project Graduation",
+    cardImage: "assets/images/experience-page/student.webp",
+    place: "LafargeHolcime Meknes",
+    time: "(Mars 2021 - july 2021)",
+    desp: "<li>Tower simulation solidworks flow</li><li>Development of a predictive model based on deep learning</li><li>Development of bot to send sms alerts and call in case of failure</li><li>Dashboard creation to compare actual and predicted values</li>",
+  },
+  {
+    title: "Technical Internship",
     cardImage: "assets/images/experience-page/renewable.jpeg",
-    place: " GIE",
-    time: "(Aug, 21 - Jan, 21)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    place: "GIE Ghriss Frekla Amagha",
+    time: "(July 2020 - august 2020)",
+    desp: "<li>Design study of a solar energy system</li><li>Electronic board programming for solar pumping automation</li><li>Implementation of energy audit</li>",
   },
   {
-    title: "thermal engineering",
+    title: "Introductory training",
     cardImage: "assets/images/experience-page/flipkart.jpeg",
-    place: "GIE",
-    time: "(Aug, 21 - Jan, 21)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    place: "Omaamr",
+    time: "(July 2019 - august 2019)",
+    desp: "<li>Vehicle diagnostics</li><li>Calculator Flash</li><li>Key chip programming</li>",
   },
 ];
 

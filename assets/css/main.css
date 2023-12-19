@@ -26,6 +26,7 @@ body {
   line-height: 1.8;
   color: #051922;
   overflow-x: hidden;
+  scroll-behavior: smooth; /* Enable smooth scrolling */
 }
 
 body img {
@@ -388,7 +389,7 @@ p:last-child {
 }
 
 .pb-150 {
-  padding-bottom: 150px;
+  /* padding-bottom: 150px; */
 }
 
 @media only screen and (max-width: 767.96px) {
@@ -1553,7 +1554,47 @@ div.owl-controls, .owl-controls div {
 .list-section {
   background-color: #f5f5f5;
 }
-
+.myClass
+{
+  margin-bottom: 120px;
+}
+.Myparentdiv
+{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.Myparentdiv p
+{
+  width: 530px;
+  text-align: center;
+  color: rgb(85, 85, 85);
+}
+@media only screen and (min-width: 0px) and (max-width: 767px)
+{
+  .Myparentdiv p
+  {
+    width: 300px;
+    font-size: 15px;
+  }
+}
+.Myabout
+{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.Myabout .Firstletter
+{
+  color:#42cdff;
+  font-size: 50px;
+}
+.Myabout .Myunderline
+{
+  border-bottom: 2px solid #42cdff;
+}
 .list-box {
   overflow: hidden;
   letter-spacing: 0.5px;
